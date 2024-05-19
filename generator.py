@@ -11,3 +11,4 @@ line_space_generator = np.linspace(1, 5, num=20)
 line_space_generator2 = np.linspace(1, 5, num=3)
 print(line_space_generator)
 print(line_space_generator2)
+
