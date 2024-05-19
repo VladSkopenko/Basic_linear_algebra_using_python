@@ -1,8 +1,9 @@
 import numpy as np
-matrix_base = np.array([[1, 0, 3],
-              [-1, -1, 2],
-              [4, 7, 2]
-              ]
+matrix_base = np.array([
+    [1, 0, 3],
+    [-1, -1, 2],
+    [4, 7, 2]
+              ], dtype=float
              )
 
 inverse_matrix = np.linalg.inv(matrix_base)
