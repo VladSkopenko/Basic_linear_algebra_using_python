@@ -12,12 +12,12 @@ first_value, second_value = object_matrix.shape
 print(f"{first_value} - кількість рядків(m)\n{second_value} - кількість стопців(n)")
 print(object_matrix.size)
 
-matrix_1= np.array([[1, 2, 3],
-              [0, 1, 2]])
+matrix_1 = np.array([[1, 2, 3],
+                    [0, 1, 2]])
 
 matrix_2 = np.array([[1, 2],
-              [0, 4],
-              [-1, 0]])
+                    [0, 4],
+                    [-1, 0]])
 
 
 c = np.dot(matrix_1, matrix_2)
