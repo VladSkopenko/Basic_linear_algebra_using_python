@@ -80,7 +80,7 @@ matrix = np.random.rand(3, 3)
 
 row_sums = np.sum(matrix, axis=1)
 vector_column = row_sums.reshape(-1, 1)
-print("16.Сума елементів  кожного рядкаматриці:\n", vector_column)
+print("16.Сума елементів  кожного рядка матриці:\n", vector_column)
 
 base_matrix = np.random.randint(1, 20, size=(3, 4))
 squared_matrix = np.power(base_matrix, 2)
